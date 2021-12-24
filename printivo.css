@@ -219,12 +219,13 @@
 .section2-div4{
     background-color: rgb(236, 232, 217);
     padding: 100px;
-    padding-left: 250px;
+    padding-left: 160px;
 }
 .balck{
     color: rgb(56, 74, 98);
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.5em;
+    /* font-size: 20px; */
     margin-bottom: 25px;
 }
 .form{
@@ -234,20 +235,50 @@
 }
 #input{
     border: none;
-    width: 300px;
-    height: 70px;
+    width: 8.1cm;
+    height: 2cm;
+    font-weight: bold;
+    color: rgb(176, 184, 194);
+    font-size: 1.05em;
 }
 #input2{
     border: none;
-    width: 500px;
-    height: 70px;
+    width: 16.3cm;
+    height: 2cm;
+    font-weight: bold;
+    color: rgb(176, 
+    184, 194);
+    font-size: 1.05em;
 }
 #input1{
     width: 150px;
-    margin-left: -160px;
+    font-weight: bold;
+    font-size: 1.05em;
+    margin-left: -185px;
+    margin-top: 8px;
+    height: 1.6cm;
+    width: 4.3cm;
     border: none;
+    background-color:rgb(56, 74, 98);
+    color: white;
 }
-
+#d-flex1{
+    margin-left: 15px;
+}
+.section2-div5{
+    background-color: rgb(56, 74, 98);
+    height: 10.5cm;
+}
+footer{
+    height: 2.3cm;
+    background-color: rgb(203, 202, 200);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer h6 {
+    color: rgb(80, 102, 131);
+}
 
 
 
