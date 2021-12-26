@@ -267,7 +267,12 @@
 }
 .section2-div5{
     background-color: rgb(56, 74, 98);
-    height: 10.5cm;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding: 100px;
+
+    flex-wrap: wrap;
 }
 footer{
     height: 2.3cm;
@@ -278,6 +283,22 @@ footer{
 }
 footer h6 {
     color: rgb(80, 102, 131);
+}
+.head{
+    color: white;
+    margin-bottom: 12px;
+    font-size: 1.3em;
+    font-weight: bold;
+
+}
+a.a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: .9em;
+}
+.sty{
+    margin-bottom: 4px;
 }
 
 
