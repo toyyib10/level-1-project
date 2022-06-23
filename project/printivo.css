@@ -47,7 +47,7 @@
 }
 .images2{
     height: 400px;
-    width: 100%;
+    width: 500px;
 }
 .styling{
     color: rgb(56, 74, 98);
@@ -77,7 +77,6 @@
 }
 .susb{
     display: flex;
-    width:100%;
     /* width: 80%; */
 }
 #container-fluid{
@@ -208,11 +207,8 @@
 }
 .section2-div4{
     background-color: rgb(236, 232, 217);
-    padding: 10%;
-    padding-left: 7.6%;
-}
-.fo{
-    display: flex;
+    padding: 100px;
+    padding-left: 160px;
 }
 .balck{
     color: rgb(56, 74, 98);
@@ -221,12 +217,16 @@
     /* font-size: 20px; */
     margin-bottom: 25px;
 }
-#input5{
+.form{
+    display: flex;
+    /* justify-content: space-around; */
+
+}
+#input{
     border: none;
     width: 8.1cm;
     height: 2cm;
     font-weight: bold;
-    padding-left:3%; 
     color: rgb(176, 184, 194);
     font-size: 1.05em;
 }
@@ -234,21 +234,20 @@
     border: none;
     width: 16.3cm;
     height: 2cm;
-    padding-left:1.5%; 
     font-weight: bold;
     color: rgb(176, 
     184, 194);
-    font-size: 1.0em;
+    font-size: 1.05em;
 }
 #input1{
     width: 150px;
     font-weight: bold;
-    font-size: 1.0em;
+    font-size: 1.05em;
+    margin-left: -185px;
+    margin-top: 8px;
     height: 1.6cm;
     width: 4.3cm;
     border: none;
-    margin-top: 8px;
-    margin-left: -180px; 
     background-color:rgb(56, 74, 98);
     color: white;
 }
@@ -263,51 +262,6 @@
     padding: 100px;
 
     flex-wrap: wrap;
-}
-.popu{
-    margin-top: 50px; 
-    margin-left: 37px; 
-    font-family: Georgia, 'Times New Roman', Times, serif; 
-    color: rgb(56, 74, 98);       
-    font-weight: 900;
-    font-size: 1.7em;
-}
-.see{
-    margin-top: 4.5%;
-    margin-left: 58.5%;
-    text-align: end;
-    color: rgb(226, 147, 129); 
-    font-weight: bold;
-}
-@media only screen and (max-width: 650px){
-    #input2{
-        margin-left: -15px;
-        width: 9.3cm;
-        margin-top: 10px;
-        padding-left: 3%; 
-    }
-    .fo{
-        flex-wrap: wrap;
-    }
-    #input1{
-        margin-top: 18px;
-    }
-    .popu{
-        font-size: 1.2em;
-        display: flex;
-        flex-wrap: wrap;
-        
-    }
-    .susb{
-       width: 70%;
-    }
-    .see{
-        margin-top: 54px;
-        font-size: 0.8em;
-        margin-left: 3%;
-        display: flex;
-        flex-wrap: wrap;
-    }
 }
 footer{
     height: 2.3cm;
