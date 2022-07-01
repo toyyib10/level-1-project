@@ -34,6 +34,9 @@
     width: 60px;
     color: white;
 }
+#ww{
+    margin-left: 75px;
+}
 .sub-div1{
     display: flex;
     justify-content: space-between;
@@ -73,7 +76,7 @@
     background-color: white;
     padding: auto;
     padding-left: 50px;
-    width: 100%;
+    /* width: 100%; */
 }
 .susb{
     display: flex;
@@ -88,12 +91,6 @@
     width: 250px;
     margin-top: 50px;
     margin-left: 50px;
-}
-#trap1{
-    height: 450px;
-    width: 250px;
-    margin-left: 50px;
-    margin-top: 50px;
 }
 .youn{
     height: 50%;
@@ -118,6 +115,9 @@
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
 }
+.d{
+    margin-left: 100px;
+}
 #stip{
     color: rgb(80, 102, 131);
     font-weight: bold;
@@ -127,7 +127,7 @@
     width: 90%;
 }
 .section2-div1{
-    width: 100%;
+    /* width: 100%; */
     border-bottom: rgb(237, 246, 253) 50px solid;
     padding-top: 70px;
     background-color: rgb(237, 246, 253);
@@ -140,7 +140,7 @@
 #comment{
     height: 165px;
     margin-left: 70px;
-    width: 345px;
+    width: 340px;
     margin-right: -30px;
     margin-top: 20px;
     border-radius: 9px;
@@ -155,7 +155,8 @@
     height: 165px;
     margin-left: 70px;
     margin-right: -30px;
-    width: 345px;
+    width: 340px;
+    padding-bottom: 50px; 
     margin-top: 20px;
     border-radius: 9px;
     display: flex;
@@ -167,7 +168,7 @@
     margin-left: 10px;
 }
 .section2-div2{
-    width: 100%;
+    /* width: 100%; */
     padding-top: 100px;
     background-color: white;
 }
@@ -252,9 +253,6 @@
     background-color:rgb(56, 74, 98);
     color: white;
 }
-#d-flex1{
-    margin-left: 15px;
-}
 .section2-div5{
     background-color: rgb(56, 74, 98);
     display: flex;
@@ -279,16 +277,51 @@
     color: rgb(226, 147, 129); 
     font-weight: bold;
 }
-
+.f{
+    margin-left: 25px;
+}
+#bw{
+    margin-left: 80px;
+}
 @media only screen and (max-width: 650px){
+    #bw{
+        margin-left: 0px;
+    }
+    .sub-div1{
+        align-content: center;
+        justify-content: center;
+    }
+    /* .font{ */
+        /* padding-left:-60px; */
+    /* } */
+    .d{
+        margin-left:0px;
+    }
     #input2{
         margin-left: -15px;
-        width: 9.3cm;
+        width: 8.3cm;
         margin-top: 10px;
         padding-left: 3%; 
     }
     .but11{
         margin-bottom: 25px;
+        margin-right: 30px;
+    }
+    #comment{
+        margin-left: -10px;
+        width: 320px;
+    }
+    #contact{
+        margin-left: -50px;
+        width: 300px;
+    }
+    #contacts{
+        width:300px;
+        margin-left: -50px;
+    }
+    #comments{
+        margin-left: -10px;
+        width: 320px;
     }
     #tri{
         width:350px;
@@ -300,6 +333,9 @@
     }
     #input1{
         margin-top: 18px;
+    }
+    #container-fluid1{
+        padding-left: -90px;
     }
     .popu{
         font-size: 1.2em;
@@ -322,6 +358,9 @@
         margin-left: 3%;
         display: flex;
         flex-wrap: wrap;
+    }
+    #ww{
+        margin-left: 0px;
     }
 }
 footer{
