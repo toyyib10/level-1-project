@@ -279,12 +279,21 @@
     color: rgb(226, 147, 129); 
     font-weight: bold;
 }
+
 @media only screen and (max-width: 650px){
     #input2{
         margin-left: -15px;
         width: 9.3cm;
         margin-top: 10px;
         padding-left: 3%; 
+    }
+    .but11{
+        margin-bottom: 25px;
+    }
+    #tri{
+        width:350px;
+        margin-bottom: 30px;
+        font-size: 0.8em;
     }
     .fo{
         flex-wrap: wrap;
@@ -300,6 +309,12 @@
     }
     .susb{
        width: 70%;
+    }
+    .styling{
+        font-size: 3em;
+    }
+    .images2{
+        display: none;
     }
     .see{
         margin-top: 54px;
