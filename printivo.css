@@ -215,6 +215,13 @@
 .fo{
     display: flex;
 }
+.wer{
+    margin-top: 10%; 
+    margin-left:  4%; 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    color: rgb(56, 74, 98); 
+    font-weight: 900;
+}
 .balck{
     color: rgb(56, 74, 98);
     font-weight: bold;
@@ -290,12 +297,19 @@
     .sub-div1{
         align-content: center;
         justify-content: center;
+        padding-left: 25px; 
     }
     /* .font{ */
         /* padding-left:-60px; */
     /* } */
     .d{
-        margin-left:0px;
+        margin-left:    0px;
+    }
+    .sub1{
+        padding: 0px;
+    }
+    .wer{
+        margin-left:none;
     }
     #input2{
         margin-left: -15px;
@@ -306,6 +320,9 @@
     .but11{
         margin-bottom: 25px;
         margin-right: 30px;
+    }
+    #trap{
+        margin-left: none;
     }
     #comment{
         margin-left: -10px;
@@ -322,6 +339,9 @@
     #comments{
         margin-left: -10px;
         width: 320px;
+    }
+    .toyyib{
+        margin-left: 0px;
     }
     #tri{
         width:350px;
@@ -342,6 +362,9 @@
         display: flex;
         flex-wrap: wrap;
         
+    }
+    .section2-div2{
+        padding-left: 50px;
     }
     .susb{
        width: 70%;
